@@ -1,9 +1,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.sportzone{
 
-}
 h2{
     color: black;
     font-size: 20px;
@@ -25,18 +23,18 @@ header {
     align-items: center;
     justify-content: center;
     height: 100%;
-margin-left: 25px;    
+margin-left: 320px;    
 }
 
 .header-content h1 {
     margin: 0;
     color: white;
 }
-------------------------------------------------------------------------------------------------------------------------
+
 
 main {
-    text-align: center !important; 
-    padding: 20px !important;
+    text-align: center ; 
+    padding: 20px ;
 }
 
 
@@ -50,8 +48,8 @@ main {
 
 
 .card {
-    display: flex !important;
-    justify-content: center !important;
+    display: flex;
+    justify-content: center ;
     width: 350px;
     height: 300px;
     position: relative;
@@ -116,17 +114,87 @@ main {
    text-decoration: none;
    border-radius: 8px;
 }
----------------------------------------------------------------------------------------------------------------------
+/*css da nav bar start  */
+
+nav.menu-lateral{
+    width: 55px;
+    height: 100%;
+    background-color: rgb(19, 14, 14);
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0px 0px blue;
+     position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
+    
+}
+div.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+ 
 
 
+}
+.btn-expandir > i{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    
+
+}
+ul{
+
+    list-style-type: none;
+   
+}
 
 
+ul li.item-menu:hover{
+background-color: blue;
+
+}
+ul li.item-menu{
+    transition: 0.2s;
+}
+ul li.ativo{
+    background-color: blue;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 50px;
+    line-height: 40px;
+
+}
+{
+    
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: 1s;
+    opacity: 0;
 
 
+}
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+}
 
-
-
-
+/*css da nav bar end  */
 
 footer {
     background-color: #0f1ef1ef; 

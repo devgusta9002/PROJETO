@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJETO</title>
     <link rel="stylesheet" href="/assets/css/home.css">
-    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
+
+
     
 
 <!--começo do cabecalho-->
@@ -22,12 +26,35 @@
 
      
 </div> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </header>
 </div>
 <!--fim do cabecalho-->
-<!--começo da nav bar-->
 
+<!--começo da nav bar-->
+<nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+        </div>
+        <ul>
+            <li class="item-menu ativo" >
+                <a href="/assets/home.html">
+                    <span class="icon"><i class="bi bi-house"></i>
+                    </span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="item-menu">
+                <a href="/assets/html/login.html">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="txt-link">Account</span>
+                </a>
+            </li>
+        </ul>
+       
+    </nav>
 <!--fim da nav bar-->
 
 
@@ -36,7 +63,7 @@
 
 <!--grid de produtos-->
 <main>
-    <div class="father">
+
     <div class="card" >
         <div class="img-box">
             
@@ -128,7 +155,9 @@
    
 
 </main>
+
 <!--fim do grid de produtos-->
+
 
 
 <!--começo do rodapé-->
@@ -142,6 +171,6 @@
 
 <!--fim do rodapé-->
 
-
+<script src="/assets/js/nav-bar.js"></script>
 </body>
 </html>
