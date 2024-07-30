@@ -23,7 +23,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 100%;
-margin-left: 320px;    
+margin-left: 100px;    
 }
 
 .header-content h1 {
@@ -249,10 +249,6 @@ footer {
     background-color: #45a049;
 }
 
-
-    
-
-  
 
 .texto-nome  {
     margin-left: 2px;
