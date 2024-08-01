@@ -119,6 +119,7 @@ main {
 }
 /*css da nav bar start  */
 
+
 nav.menu-lateral{
     width: 55px;
     height: 100%;
@@ -130,6 +131,7 @@ nav.menu-lateral{
     left: 0;
     overflow: hidden;
     transition: .5s;
+    
 }
 
 nav.menu-lateral.expandir{
@@ -139,7 +141,7 @@ nav.menu-lateral.expandir{
 div.btn-expandir{
     width: 100%;
     padding-left: 10px;
- 
+margin-bottom: 50px; 
 
 
 }
@@ -153,7 +155,7 @@ div.btn-expandir{
 ul{
 
     list-style-type: none;
-   
+   margin-bottom: 70px;
 }
 
 
@@ -196,6 +198,7 @@ nav.menu-lateral.expandir .txt-link{
 ul li.item-menu a .icon > i{
     font-size: 30px;
 }
+
 
 /*css da nav bar end  */
 
