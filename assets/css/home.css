@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -38,8 +36,12 @@ margin-left: 100px;
 
 main {
     text-align: center ; 
-    padding: 20px;
+
+    padding: 20px ;
+
 }
+ 
+
 
 
 
@@ -292,4 +294,5 @@ footer {
   .icon {
     font-size: 20px;
   }
- 
+
+
