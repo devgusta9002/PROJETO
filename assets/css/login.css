@@ -5,12 +5,24 @@
   font-family: Arial, sans-serif;
 }
 
-body {
+
+header {
+  background-color: #0f1ef1ef;
+  height: 60px;
+  border-bottom: 3px solid #00008B;
+}
+
+.header-content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  justify-content: center;
+  height: 100%;
+margin-left: 100px;    
+}
+
+.header-content h1 {
+  margin: 0;
+  color: white;
 }
 
 .login-container {
@@ -20,6 +32,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   text-align: center;
+  
+  
+  
+  
 }
 
 .login-container h2 {
@@ -71,4 +87,11 @@ button:hover {
 
 .links a:hover {
   text-decoration: underline;
+}
+
+.login-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
