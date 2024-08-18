@@ -17,7 +17,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 100%;
-margin-left: 100px;    
+margin-left: 90px;    
 }
 
 .header-content h1 {
@@ -32,9 +32,6 @@ margin-left: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   text-align: center;
-  
-  
-  
   
 }
 
@@ -90,8 +87,17 @@ button:hover {
 }
 
 .login-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+
+  top: 50%;
+  
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
  
+}
+
+#logo-site{
+  margin-left:20px;
+  
 }
