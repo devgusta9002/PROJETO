@@ -1,4 +1,16 @@
+header {
+  background-color: #0f1ef1ef;
+  height:35px;
+  border-bottom: 3px solid #00008B;
+}
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+margin-left: 50px;    
+}
 
 form {
     display: flex;
