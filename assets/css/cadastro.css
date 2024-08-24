@@ -10,6 +10,9 @@ header {
 
   border-bottom: 3px solid #00008B;
 }
+h1{
+  color:white;
+}
 
 .header-content {
   display: flex;
@@ -20,6 +23,9 @@ header {
 margin-left: 50px;    
 }
 
+.logo-site{
+  margin-left: 20px;
+}
 
 form {
     display: flex;
