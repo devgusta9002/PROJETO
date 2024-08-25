@@ -55,7 +55,7 @@
   }
   
   h3 {
-    color: #af827d;
+    color: black;
     margin: 20px 0 20px 0;
     font-size: 25px;
   }
@@ -131,8 +131,8 @@
     outline: none;
     background: #C1908B;
     color: white;
-    margin-top: 20%;
     border-radius: 30px;
+
   }
   
   @media only screen and (max-width:768px) {
