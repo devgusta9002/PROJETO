@@ -19,6 +19,9 @@ body{
    background: #eee;
 }
 
+
+
+
 .container{
    max-width: 1200px;
    margin:0 auto;
@@ -40,6 +43,7 @@ body{
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:2rem;
    border: 1px blue;
+
 }
 
 .container .products-container .product{
@@ -50,6 +54,7 @@ body{
    outline: .1rem solid #ccc;
    outline-offset: -1.5rem;
    cursor: pointer;
+   border-radius: 30px; 
 }
 
 .container .products-container .product:hover{
