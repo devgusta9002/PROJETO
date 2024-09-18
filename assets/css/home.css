@@ -26,7 +26,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
 margin-left: 100px;    
 }
@@ -39,6 +39,21 @@ margin-left: 100px;
 #logo-site{
     margin-left:30px;
 }
+
+
+.logo-perfil{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    margin-left: 970px;
+
+}
+
+
+
+
+
   /* header end */
 
 
@@ -68,6 +83,7 @@ margin-left: 100px;
     left: 500px;
     flex-wrap: wrap;
    margin-bottom: 50px;
+   
 
 
 }
