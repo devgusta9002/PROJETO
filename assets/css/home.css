@@ -1,4 +1,11 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -9,11 +16,7 @@ h2{
     font-size: 20px;
 
 }
-
-
-
-
-
+  /* header start */
 header {
     background-color: #0f1ef1ef;
     height: 60px;
@@ -23,7 +26,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
 margin-left: 100px;    
 }
@@ -37,25 +40,35 @@ margin-left: 100px;
     margin-left:30px;
 }
 
-main {
+
+.logo-perfil{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    margin-left: 970px;
+
+}
+
+
+
+
+
+  /* header end */
+
+
+  main {
     text-align: center ; 
 
     padding: 20px ;
 
 }
- 
 
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
 
-
+/* card artigos start*/
 .card {
     display: flex;
     justify-content: center ;
@@ -70,6 +83,7 @@ main {
     left: 500px;
     flex-wrap: wrap;
    margin-bottom: 50px;
+   
 
 
 }
@@ -123,9 +137,14 @@ main {
    text-decoration: none;
    border-radius: 8px;
 }
-/*css da nav bar start  */
+
+/*card artigos end */
 
 
+
+
+
+/* nav bar start  */
 nav.menu-lateral{
     width: 55px;
     height: 100%;
@@ -186,9 +205,6 @@ ul li.item-menu a{
     line-height: 40px;
 
 }
-{
-    
-}
 
 ul li.item-menu a .txt-link{
     margin-left: 70px;
@@ -204,10 +220,10 @@ nav.menu-lateral.expandir .txt-link{
 ul li.item-menu a .icon > i{
     font-size: 30px;
 }
+/* da nav bar end  */
 
 
-/*css da nav bar end  */
-
+/* footer start*/
 footer {
     background-color: #0f1ef1ef; 
     height: 70px; 
@@ -234,68 +250,84 @@ footer {
     
 }
 
-.search-bar {
-    margin-left: auto; 
-    display: flex;
-    align-items: center;
+
+
+
+
+
+
+
+/* footer end*/
+
+
+
+
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
     
 }
 
-.search-bar input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 5px;
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
 }
 
-.search-bar button {
-    padding: 8px 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.search-bar button:hover {
-    background-color: #45a049;
-}
-
-
-.texto-nome  {
-    margin-left: 2px;
-}
-.button-container {
-    display: flex;
-    background-color: black;
-    width: 250px;
-    height: 40px;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-  }
-  
-  .button {
-    outline: 0 !important;
-    border: 0 !important;
-    width: 40px;
-    height: 40px;
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
     border-radius: 50%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    transition: all ease-in-out 0.3s;
+    color: #8c52ff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+    display: grid;
+    alo
+}
+
+form:hover{
+    width: 300px;
     cursor: pointer;
-  }
-  
-  .button:hover {
-    transform: translateY(-3px);
-  }
-  
-  .icon {
-    font-size: 20px;
-  }
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #8c52ff;
+    color: white;
+}
+
+
+.search-icon{
+    color: black;
+}
 
 
