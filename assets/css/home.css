@@ -35,193 +35,22 @@ margin-left: 100px;
     margin: 0;
     color: white;
 }
-
-#logo-site{
-    margin-left:30px;
-}
-
-
 .logo-perfil{
     color: white;
     font-size: 30px;
     display: flex;
     justify-content: right;
-    margin-left: 970px;
+    margin-left: 900px;
 
 }
 
-
-
-
-
-  /* header end */
-
-
-  main {
-    text-align: center ; 
-
-    padding: 20px ;
-
-}
-
-
-
-
-
-/* card artigos start*/
-.card {
-    display: flex;
-    justify-content: center ;
-    width: 350px;
-    height: 300px;
-    position: relative;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-    top: 60px;
-    left: 500px;
-    flex-wrap: wrap;
-   margin-bottom: 50px;
-   
-
-
-}
-
-.card:hover {
-    height: 400px;
-}
-
-.card .img-box {
-    position: absolute;
-    width: 250px;
-    height: auto;
-    top: 0px;
-    transition: 0.5s;
-}
-
-.card:hover .img-box {
-    top: -100px;
-    scale: 0.75;
-}
-
-.card .img-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .content {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    position: absolute;
-    top: 250px;
-    width: 100%;
-    padding: 0px 30px;
-    text-align: center;
-    height: 30px;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-.card:hover .content {
-    top: 130px;
-    height: 250px;
-}
-
-.card .read-more {
-   background-color: blue;
-   padding: 12px;
-   color: #fff;
-   text-decoration: none;
-   border-radius: 8px;
-}
-
-/*card artigos end */
-
-
-
-
-
-/* nav bar start  */
-nav.menu-lateral{
-    width: 55px;
-    height: 100%;
-    background-color: rgb(19, 14, 14);
-    padding: 40px 0px 40px 1%;
-    box-shadow: 3px 0px 0px blue;
-     position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: .5s;
-    
-}
-
-nav.menu-lateral.expandir{
-    width: 300px;
-    
-}
-div.btn-expandir{
-    width: 100%;
-    padding-left: 10px;
-margin-bottom: 50px; 
-
-
-}
-.btn-expandir > i{
-    color: #fff;
-    font-size: 25px;
-    cursor: pointer;
-    
-
-}
-ul{
-
-    list-style-type: none;
-   margin-bottom: 70px;
-}
-
-
-ul li.item-menu:hover{
-background-color: blue;
-
-}
-ul li.item-menu{
-    transition: 0.2s;
-}
-ul li.ativo{
-    background-color: blue;
-}
-
-ul li.item-menu a{
+.icon-star{
     color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
-    display: flex;
-    margin-bottom: 50px;
-    line-height: 40px;
+    font-size: 27px;
+    padding: 40px;
 
 }
-
-ul li.item-menu a .txt-link{
-    margin-left: 70px;
-    transition: 1s;
-    opacity: 0;
-
-
-}
-nav.menu-lateral.expandir .txt-link{
-    margin-left: 40px;
-    opacity: 1;
-}
-ul li.item-menu a .icon > i{
-    font-size: 30px;
-}
-/* da nav bar end  */
-
+  /* header end */
 
 /* footer start*/
 footer {
@@ -249,86 +78,7 @@ footer {
     margin-top: 70px; 
     
 }
-
-
-
-
-
-
-
-
 /* footer end*/
-
-
-
-
-
-form{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 4px solid white;
-    padding: 5px;
-    
-}
-
-input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
-}
-
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    color: #8c52ff;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-    display: grid;
-    alo
-}
-
-form:hover{
-    width: 300px;
-    cursor: pointer;
-}
-
-form:hover input{
-    display: block;
-}
-
-form:hover .fa{
-    background: #8c52ff;
-    color: white;
-}
-
-
-.search-icon{
-    color: black;
-}
 
 .box-container{
     display: flex;
@@ -339,7 +89,7 @@ form:hover .fa{
 .slide-container{
     position: relative;
     width: 900px;
-    height: 450px;
+    height: 470px;
     border: 3px solid #ede6d6;
     box-shadow: 0 0 8px 2px rgba(0,0,0,0.2);
 }
