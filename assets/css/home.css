@@ -28,7 +28,7 @@ header {
     align-items: center;
     justify-content: left;
     height: 100%;
-margin-left: 100px;    
+    margin-left: 100px;    
 }
 
 .header-content h1 {
@@ -50,6 +50,14 @@ margin-left: 100px;
     padding: 40px;
 
 }
+
+
+.icon-gear{
+color: white;
+font-size:30px;
+
+
+}
   /* header end */
 
 /* footer start*/
@@ -58,7 +66,7 @@ footer {
     height: 70px; 
     width: 100%;
     margin: fixed;
-    margin-top: 100px;
+    margin-top: 236px;
     
 }
 
@@ -67,6 +75,7 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: auto;
 }
 
 .footer-content p {
@@ -156,6 +165,24 @@ span.next:hover, span.prev:hover{
 .dotsContainer .active{
     background-color: #555;
 }
+
+.sub-cabecalho li{
+    display: inline-block;
+    margin-left: 280px;
+
+    
+}
+
+.box-cabecalho{
+    height: 25px;
+    background-color: lightblue;
+    
+    
+
+}
+
+
+
 
 @keyframes next1{
     from{
