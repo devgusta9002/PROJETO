@@ -44,6 +44,11 @@ margin-left: 100px;
 
 }
 
+.logo-perfil:hover{
+    height: 40px;
+    transition: 2s ease-in;
+}
+
 .icon-gear{
     color: white;
     font-size: 27px;
@@ -60,7 +65,7 @@ margin-left: 100px;
 
 .box-cabecalho li{
     display: inline-block;
-padding-left: 120px;
+padding-left:100px;
 margin: 10px;
     
 }
