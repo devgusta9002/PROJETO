@@ -44,7 +44,12 @@ header {
 
 }
 
-.icon-star{
+.logo-perfil:hover{
+    height: 40px;
+    transition: 2s ease-in;
+}
+
+.icon-gear{
     color: white;
     font-size: 27px;
     padding: 40px;
@@ -52,6 +57,7 @@ header {
 }
 
 
+<<<<<<< HEAD
 .icon-gear{
 color: white;
 font-size:30px;
@@ -77,17 +83,30 @@ footer {
     height: 100%;
     margin: auto;
 }
-
-.footer-content p {
-    margin: 0;
-    color: aliceblue;
+=======
+.box-cabecalho{
+    height:40px;   
+    background-color: lightblue;
 }
 
-.footer-container {
-    margin-top: 70px; 
+
+.box-cabecalho li{
+    display: inline-block;
+padding-left:100px;
+margin: 10px;
     
 }
-/* footer end*/
+#logo-star{
+padding: 10px;
+}
+
+
+  /* header end */
+
+
+>>>>>>> 067a10afa1b294ba4db2e9a499c5dfeeafedfa60
+
+
 
 .box-container{
     display: flex;
@@ -166,6 +185,7 @@ span.next:hover, span.prev:hover{
     background-color: #555;
 }
 
+<<<<<<< HEAD
 .sub-cabecalho li{
     display: inline-block;
     margin-left: 280px;
@@ -180,6 +200,11 @@ span.next:hover, span.prev:hover{
     
 
 }
+=======
+
+
+
+>>>>>>> 067a10afa1b294ba4db2e9a499c5dfeeafedfa60
 
 
 
@@ -219,3 +244,31 @@ span.next:hover, span.prev:hover{
 }
 
 
+
+/* footer start*/
+footer {
+    background-color: #0f1ef1ef; 
+    height: 70px; 
+    width: 100%;
+    margin: fixed;
+    margin-top: 100px;
+    
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+    color: aliceblue;
+}
+
+.footer-container {
+    margin-top: 70px; 
+    
+}
+/* footer end*/
