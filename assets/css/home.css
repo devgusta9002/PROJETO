@@ -52,11 +52,21 @@ margin-left: 100px;
 }
 
 
-.box-cabecalho li{
-    display: inline-block;
-    
+.box-cabecalho{
+    height:40px;   
+    background-color: lightblue;
 }
 
+
+.box-cabecalho li{
+    display: inline-block;
+padding-left: 120px;
+margin: 10px;
+    
+}
+#logo-star{
+padding: 10px;
+}
 
 
   /* header end */
