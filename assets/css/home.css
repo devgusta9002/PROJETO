@@ -16,96 +16,78 @@ h2{
     font-size: 20px;
 
 }
-  /* header start */
+
 header {
-    background-color: #0f1ef1ef;
+    background-color: #0f1ef1; /* Cor corrigida */
     height: 60px;
     border-bottom: 3px solid #00008B;
-}
-
-.header-content {
     display: flex;
-    align-items: center;
-    justify-content: left;
-    height: 100%;
-    margin-left: 100px;    
+    justify-content: space-between; /* Espaça o conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 0 20px; /* Espaçamento interno do cabeçalho */
 }
 
 .header-content h1 {
     margin: 0;
     color: white;
 }
-.logo-perfil{
-    color: white;
-    font-size: 30px;
+
+.icons {
+    margin-left: auto; /* Empurra os ícones para a extrema direita */
     display: flex;
-    justify-content: right;
-    margin-left: 900px;
-
+    gap: 10px; /* Espaçamento entre os ícones */
+    
 }
 
-.logo-perfil:hover{
-    height: 40px;
-    transition: 2s ease-in;
+header i {
+    color: white; /* Mantém os ícones visíveis */
+    padding: 0 10px;
+    font-size: 30px;
 }
 
-.icon-gear{
-    color: white;
-    font-size: 27px;
-    padding: 40px;
-
-}
-
-
-<<<<<<< HEAD
-.icon-gear{
-color: white;
-font-size:30px;
-
-
-}
   /* header end */
 
 /* footer start*/
 footer {
-    background-color: #0f1ef1ef; 
-    height: 70px; 
-    width: 100%;
-    margin: fixed;
-    margin-top: 236px;
-    
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    color: #343a40;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: auto;
-}
-=======
-.box-cabecalho{
-    height:40px;   
-    background-color: lightblue;
+footer h5 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
-
-.box-cabecalho li{
-    display: inline-block;
-padding-left:100px;
-margin: 10px;
-    
-}
-#logo-star{
-padding: 10px;
+footer a {
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
+footer a:hover {
+    color: #007bff;
+}
 
-  /* header end */
+footer .form-control {
+    border-radius: 0;
+}
 
+footer .btn-primary {
+    border-radius: 0;
+    background-color: #007bff;
+    border: none;
+}
 
->>>>>>> 067a10afa1b294ba4db2e9a499c5dfeeafedfa60
+footer .btn-primary:hover {
+    background-color: #0056b3;
+}
 
+footer hr {
+    border-top: 1px solid #dcdcdc;
+}
+
+/*footer end*/
 
 
 .box-container{
