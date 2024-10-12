@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações do Site</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/telaConfig.css">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto mt-10 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold text-center mb-8 text-gray-700">Configurações do Site</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Tema -->
+            <div class="space-y-4">
+                <h4 class="text-lg font-semibold text-gray-600">Tema</h4>
+                <div class="relative">
+                    <label for="themeSelect" class="block text-gray-500">Escolha o tema:</label>
+                    <select id="themeSelect" class="w-full p-3 mt-2 bg-gray-100 rounded-lg border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
+                        <option value="light">Claro</option>
+                        <option value="dark">Escuro</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Notificações -->
+            <div class="space-y-4">
+                <h4 class="text-lg font-semibold text-gray-600">Notificações</h4>
+                <div class="relative">
+                    <label for="emailNotifications" class="block text-gray-500">Notificações por e-mail:</label>
+                    <select id="emailNotifications" class="w-full p-3 mt-2 bg-gray-100 rounded-lg border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
+                        <option value="enabled">Ativadas</option>
+                        <option value="disabled">Desativadas</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <!-- Privacidade -->
+            <div class="space-y-4">
+                <h4 class="text-lg font-semibold text-gray-600">Privacidade</h4>
+                <div class="flex items-center">
+                    <input type="checkbox" id="dataSharing" class="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded" checked>
+                    <label for="dataSharing" class="ml-3 text-gray-500">Compartilhar dados com parceiros</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="showProfile" class="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded" checked>
+                    <label for="showProfile" class="ml-3 text-gray-500">Mostrar meu perfil publicamente</label>
+                </div>
+            </div>
+
+            <!-- Botões de ação -->
+            <div class="flex flex-col justify-end space-y-4">
+                <button id="saveBtn" class="w-full py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500">Salvar Configurações</button>
+                <a href="/assets/home.html" class="w-full text-center py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-400">Voltar à Tela Inicial</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/assets/js/telaConfig.js"></script>
+
+</body>
+</html>
