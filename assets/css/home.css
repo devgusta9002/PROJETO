@@ -6,10 +6,12 @@
    
 }
 
+
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 
 }
+
 
 h2{
     color: black;
@@ -30,7 +32,7 @@ header {
 .header-content h1 {
     margin: 0;
     color: white;
-    
+   
 }
 
 
@@ -55,16 +57,12 @@ header i {
 }
 
   /* header end */
-
+  .card-text{
+    margin-top:10px;
+    padding: 10px;
+  }
 
   /*grid de produtos */
-main{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /*end grid de produtos */
 
