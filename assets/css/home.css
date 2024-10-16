@@ -3,14 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+      
 }
-
-
 body{
-  
-
+    background-color: #dbe7f1;
 }
+
+
 
 
 h2{
@@ -27,6 +26,8 @@ header {
     justify-content: space-between; /* Espaça o conteúdo */
     align-items: center; /* Centraliza verticalmente */
     padding: 0 20px; /* Espaçamento interno do cabeçalho */
+        box-shadow: 0 4px 2px -2px gray;
+      
 }
 
 .header-content h1 {
@@ -63,6 +64,27 @@ header i {
   }
 
   /*grid de produtos */
+  .card {
+    background-color: white; /* Mantém neutro para destacar conteúdo */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-ver-mais {
+    background-color: #ff6600; /* Laranja */
+    color: white; /* Texto em branco */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Ajuste o padding se necessário */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.btn-ver-mais:hover {
+    background-color: #ff8533; /* Cor ao passar o mouse */
+}
+
+
 
 /*end grid de produtos */
 
@@ -129,10 +151,16 @@ input {
 
 
 /* footer start*/
+
+
 footer {
     background-color: #f8f9fa;
     padding: 50px 0;
     color: #343a40;
+}
+
+.container{
+    margin-top: 50px;
 }
 
 footer h5 {
