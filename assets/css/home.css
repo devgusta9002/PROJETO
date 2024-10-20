@@ -64,19 +64,16 @@
 
     /* subheader start */
 
-
-    #navbar-subcabecalho{
- display: flex;
- justify-content: center;
- align-items: center;
- padding-bottom:40px;
- margin-left: 165px;
+    .container{
+        margin-bottom: 50px;
+        margin-left: 163px;
     }
 
     .navbar {
         border-bottom: 2px solid #0f1ef1; /* Adiciona uma borda na parte inferior do subcabeçalho */
         margin-top: 0;
         height: 50px;
+
     }
 
 
